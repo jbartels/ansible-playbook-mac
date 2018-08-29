@@ -58,7 +58,6 @@ homebrew_installed_packages:
   - bundler-completion
   - cloc
   - cowsay
-  - consul
   - cookiecutter
   - ctags
   - curl
@@ -69,6 +68,7 @@ homebrew_installed_packages:
   - docker-gen
   - docker-machine
   - docker-swarm
+  - dos2unix
   - duti
   - enca
   - fasd
@@ -522,5 +522,3 @@ mas_installed_app_ids:
 #      - 1088791669 # Kidslox
 #      - 408981434 # iMovie
       - 409183694 # keynote
-
-
