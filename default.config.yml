@@ -192,63 +192,63 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - alfred
+#  - alfred
   - amazon-workdocs
   - amazon-workspaces
   - atom
-  - caffeine
-  - charles
-  - clipy
-  - coconutbattery
-  - cyberduck
+#  - caffeine
+#  - charles
+#  - clipy
+#  - coconutbattery
+#  - cyberduck
   - docker
-  - dropbox
-  - fantastical
+#  - dropbox
+#  - fantastical
   - firefox
-  - flux
-  - gas-mask
-  - gitter
-  - gitkraken
-  - github-desktop
+#  - flux
+#  - gas-mask
+#  - gitter
+#  - gitkraken
+#  - github-desktop
   - google-chrome
   - google-drive
   - google-hangouts
   - gpgtools
  # - handbrake
-  - intellij-idea
+#  - intellij-idea
   - iterm2
   - istat-menus
   - java
   - jetbrains-toolbox
-  - jump-desktop
-  - joinme
+#  - jump-desktop
+#  - joinme
   - keybase
   - kitematic
   - kindle
-  - limechat
-  - omnigraffle
-  - outline-manager
+#  - limechat
+#  - omnigraffle
+#  - outline-manager
   - pgadmin4
   - postico
   - postman
-  - powershell
-  - pycharm
-  - sequel-pro
-  - shadowsocks-libev
-  - shadowsocksx
+#  - powershell
+#  - pycharm
+#  - sequel-pro
+#  - shadowsocks-libev
+#  - shadowsocksx
   # - shadowsocksx-ng
-  - skitch
+#  - skitch
   - slack
-  - sourcetree
-  - sublime-text
+#  - sourcetree
+#  - sublime-text
   - tomighty
-  - transmit
+#  - transmit
   - tunnelblick
   - vagrant
   - virtualbox
   - visual-studio-code
   - wifi-explorer
-  - vlc
+#  - vlc
 
 
 # Vim config
