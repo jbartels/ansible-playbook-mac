@@ -3,7 +3,7 @@
 #	- bootstrap machine in order to prepare for ansible playbook run
 
 RELEASE="master"
-DOWNLOAD="https://github.com/bmacauley/ansible-playbook-mac-dev/archive/$RELEASE.tar.gz"
+DOWNLOAD="https://github.com/bmacauley/ansible-playbook-mac/archive/$RELEASE.tar.gz"
 
 
 
@@ -25,7 +25,7 @@ echo 'Macbook dev tools installer'
 echo '==================================='
 echo
 echo ' Uses the following Ansible playbook...'
-echo 'https://github.com/bmacauley/ansible-playbook-mac-dev'
+echo 'https://github.com/bmacauley/ansible-playbook-mac'
 echo
 echo
 
@@ -68,26 +68,26 @@ if [[ ! -x /usr/local/bin/ansible ]]; then
 fi
 
 
-# Remove old ansible-playbook-mac-dev playbook
-if [[ ! -x /tmp/ansible-playbook-mac-dev.tar.gz ]]; then
-	echo "Info   | Remove  | ansible-playbook-mac-dev playbook"
-	rm -rf /tmp/ansible-playbook-mac-dev*
+# Remove old ansible-playbook-mac playbook
+if [[ ! -x /tmp/ansible-playbook-mac.tar.gz ]]; then
+	echo "Info   | Remove  | ansible-playbook-mac playbook"
+	rm -rf /tmp/ansible-playbook-mac*
 fi
 
 
-# Download and run ansible-playbook-mac-dev playbook
-echo "Info   | Download  | ansible-playbook-mac-dev playbook"
+# Download and run ansible-playbook-mac playbook
+echo "Info   | Download  | ansible-playbook-mac playbook"
 cd /tmp
-curl -fsSL -o ansible-playbook-mac-dev.tar.gz $DOWNLOAD
-tar zxf ansible-playbook-mac-dev*.tar.gz
+curl -fsSL -o ansible-playbook-mac.tar.gz $DOWNLOAD
+tar zxf ansible-playbook-mac*.tar.gz
 
 # Modify the PATH
 # This should be subsequently updated in shell settings
 export PATH=/usr/local/bin:$PATH
 
 
-echo "Info   | Run | ansible-playbook-mac-dev playbook"
-cd /tmp/ansible-playbook-mac-dev-*
+echo "Info   | Run | ansible-playbook-mac playbook"
+cd /tmp/ansible-playbook-mac-*
 ansible-galaxy install -r requirements.yml
 ansible-playbook main.yml -i inventory -K
 
