@@ -181,6 +181,7 @@ homebrew_installed_packages:
   - wrk
   - zeromq
   - z
+  - zoomus
   - zsh
   - zsh-completions
 
