@@ -271,6 +271,7 @@ powerline_fonts_repo_accept_hostkey: yes
 # Install/Update Mac App store apps using MAS
 mas_installed_app_ids:
       - 497799835 # Xcode (8.1)
+      - 443987910 #1Password
 #      - 824183456 # Affinity Photo (purchase)
       - 405399194 # Kindle
 #      - 824171161 # Affinity Designer (purchase)
